@@ -1,0 +1,20 @@
+{
+	"name": "C++",
+	"dockerFile": "cpp_dev:0.3",
+	"settings": {},
+	"extensions": [
+		"ms-vscode.cpptools",
+		"josetr.cmake-language-support-vscode",
+		"ms-vscode.cmake-tools",
+		"cheshirekow.cmake-format",
+		"albert.TabOut",
+		"gruntfuggly.todo-tree",
+		"mhutchie.git-graph"
+	],
+	"runArgs": [
+		"--network=host",
+		"--security-opt",
+		"label=disable",
+		"--cap-add=CAP_SYS_PTRACE"
+	]
+}
